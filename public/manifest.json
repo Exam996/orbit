@@ -1,0 +1,43 @@
+{
+  "name": "ORBIT — Personal AI Operating System",
+  "short_name": "ORBIT",
+  "description": "Your private personal AI agent for projects, tasks, research, and productivity.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0b",
+  "theme_color": "#0a0a0b",
+  "orientation": "any",
+  "categories": ["productivity", "utilities", "business"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Command",
+      "short_name": "Command",
+      "url": "/?action=new",
+      "description": "Start a new ORBIT command"
+    },
+    {
+      "name": "Tasks",
+      "short_name": "Tasks",
+      "url": "/tasks"
+    },
+    {
+      "name": "Ideas",
+      "short_name": "Ideas",
+      "url": "/ideas"
+    }
+  ]
+}
